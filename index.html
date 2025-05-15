@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>canvas-editor-plugin-ai-assistant</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="menu" editor-component="menu">
+
+      <!-- <button id="import-docx">导入Word</button>
+      <button id="export-docx">导出Word</button> -->
+    </div>
+    <!-- <input type="file" id="file-docx" accept=".docx" style="display:none" /> -->
+    <div class="main-content">
+      <div class="catalog" editor-component="catalog">
+        <div class="catalog__header">
+          <span>目录</span>
+          <div class="catalog__header__close">
+            <i></i>
+          </div>
+        </div>
+        <div class="catalog__main"></div>
+      </div>
+      <div class="editor"></div>
+    </div>
+    <div class="footer" editor-component="footer">
+      <div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
