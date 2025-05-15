@@ -1,6 +1,7 @@
 # ai-assistant
 
 AI Assistant 插件，适用于 canvas-editor。
+插件源码GitHub地址:https://github.com/aini-aini/canvas-editor-ai-assistant
 
 ## 安装
 
